@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Data and generated artifacts
+data/
+raw_data/
+processed/
+outputs/
+results/
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.parquet
+*.pkl
+*.zip
+*.tar
+*.tar.gz
+
+# Local configs
+.env
+configs/paths.yaml
+
+

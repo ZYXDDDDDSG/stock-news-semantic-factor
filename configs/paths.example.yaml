@@ -1,0 +1,13 @@
+data:
+  price_dir: "/path/to/daily_ohlcv_csv"
+  news_dir: "/path/to/news_text"
+  factor_dir: "/path/to/factor_library"
+  embedding_dir: "/path/to/qwen_embeddings"
+
+output:
+  result_dir: "./outputs"
+
+model:
+  embedding_name: "qwen3_embedding_tminus1.pt"
+
+
